@@ -1,0 +1,63 @@
+<html>
+<head>
+  <script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+<script src="http://104.131.130.195/js/IOT.bundle.js"></script>
+
+  <script>
+    var conn = meshblu.createConnection({
+      uuid: localStorage.jsconsoleUuid,
+      token: localStorage.jsconsoleToken,
+       server: 'ws://104.131.130.195',
+       port: 3000
+
+    });
+
+    conn.on('ready', function(device){
+      console.log('Ready', device);
+      localStorage.jsconsoleUuid = device.uuid;
+      localStorage.jsconsoleToken = device.token;
+
+      $('#status').html('Connected to IOTcloud!');
+      $("#uuid").html('UUID: ' + device.uuid);
+      $("#instructions").html('Now open your developer console and start interacting with our javascript websocket API using "conn._______"')
+
+      conn.on('message', function(message){
+        console.log('message received', message);
+        $("#device").append(message);
+      //  alert("11111");
+          
+//          $("#messageReceived").text(message);
+                  for(var p in message){ $("#messageReceived").append(message[p] + '<br>');} 
+      });
+
+    });
+      
+      var sendMessage = function()
+      {
+        var sendUUID = $("#deviceuuid").val(); 
+        conn.message({"devices":sendUUID,"payload":"hello"});
+          
+  
+//        alert("11111");
+      };
+
+  </script>
+</head>
+<body>
+  <h2>
+    <span id="status">
+      Connecting to IOTcloud...
+    </span>
+  </h2>
+  <h2><span id="uuid"></span></h2>
+  <h2><span id="instructions"></span></h2>
+  <div id="device"></div>
+    
+  <div>
+    <input id = "deviceuuid"></input>
+    <button id="sendMessageButton" onclick="sendMessage()">SendMessage</button>
+     <div id="messageReceived"></div> 
+  </div>
+    
+</body>
+</html>
