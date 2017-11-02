@@ -1,0 +1,96 @@
+[
+	{
+		"site_name": "7788xs",
+		"site_urls": ["http://www.7788xs.cc/", "http://www.78xs.co/"],
+		"search_url": "modules/article/search.php?searchkey=%@&t=1&page=%ld",
+		"image_base_url": "",
+		"enabled": true,
+		"regex": {
+			"book_list": "<div class=\"ml212\">[\\s\\S]*?</div>",
+			"book_title": "<a href=\"[^\"]*\" class=\"a14\">([^<]*)",
+			"book_link": "<a href=\"([^\"]*)\" class=\"a14\">",
+			"book_author": "<span>作者：</span><a href=\"[^\"]*\">([^<]*)",
+			"book_image": "<img alt=\"%@\" src=\"([^\"]*)\" />",
+			"book_memo": "<dd>([^<]*)",
+
+			"chapter_list": "<dd>[\\s\\S]*?</dd>",
+			"chapter_item": "<a href=\"([^\"]*)\">([\\s\\S]*?)</a>",
+			"chapter_content": "<div id=\"content\">([\\s\\S]*?)</div>",
+
+			"category_list": "",
+			"category_book_title": "",
+			"category_book_link": "",
+			"category_book_memo": "",
+			"category_book_image": "",
+			"category_book_author": "",
+
+			"preserved_1": "<span>分类：</span><a href=\"[^\"]*\">([^<]*)",
+			"preserved_2": "",
+			"preserved_3": ""
+		}
+	},
+	{
+		"site_name": "bl_novel",
+		"site_urls": ["http://www.blnovel.com/"],
+		"search_url": "/search.php?searchkey=%@&searchtype=articlename&sqtype=1&bysort=0&page=%ld",
+		"image_base_url": "",
+		"enabled": true,
+		"regex": {
+			"book_list": "<div class=\"book\">[\\s\\S]*?<dd class=\"book_intro\">[\\s\\S]*?</dd>",
+			"book_title": "</em>[\\s\\S].*?<a target=\"_blank\" href=\".*[^\\\"]\" >([\\s\\S].*?)</a>",
+			"book_link": "</em>[\\s\\S].*?<a target=\"_blank\" href=\"(.*[^\\\"])\" >[\\s\\S].*?</a>",
+			"book_author": "<dd class=\"auth\">(.*[^<])</dd>",
+			"book_image": "<img width=\".*[^\"]\" height=\".*[^\"]\" src=\"(.*[^\"])\"",
+			"book_memo": "<dd class=\"book_intro\">(.*?)</dd>",
+
+			"chapter_list": "<td class=\"ccss\">[\\s\\S]*?</td>",
+			"chapter_item": "<a href=\"([^\"]*)\">([^<]*)</a>",
+			"chapter_content": "<div id=\"content\">([\\S\\s]*?)</div>",
+
+			"category_list": "",
+			"category_book_title": "",
+			"category_book_link": "",
+			"category_book_memo": "",
+			"category_book_image": "",
+			"category_book_author": "",
+
+			"preserved_1": "",
+			"preserved_2": "",
+			"preserved_3": ""
+		}
+	},
+	{
+		"site_name": "txt99",
+		"site_urls": ["http://zhannei.baidu.com/","http://www.txt99.cc/", "http://m.txt99.cc/", "http://www.jjxsw.cc/"],
+		"search_url": "/cse/search?q=%@&p=%ld&s=10722981113312165527",
+		"image_base_url": "http://img.jjxsw.cc/",
+		"enabled": true,
+		"regex": {
+			"book_list": "<div class=\"result-item result-game-item\">[\\s\\S]*?</p>\\s*?</div>",
+			"book_title": "<img src=\"[^\"]*\" alt=\"([^\"]*)\"",
+			"book_link": "<a cpos=\"newchapter\" href=\"([^\"]*)\"",
+			"book_author": "作者：</span>[\\s\\S]*?<span>([\\s\\S]*?)</span>",
+			"book_image": "<img src=\"([^\"]*)\"",
+			"book_memo": "<p class=\"result-game-item-desc\">([\\s\\S]*?)</p>",
+
+			"chapter_list": "<a href=\"[^\"]*\" title=\"[^\"]*\">",
+			"chapter_item": "<a href=\"([^\"]*)\" title=\"([^\"]*)\">",
+			"chapter_content": "<div id=\"view_content_txt\">([\\s\\S]*?)<div class=\"view_page\">",
+
+			"category_list": "<div class=\"listbg\">[\\s\\S]*?<\/div>[\\s\\S]*?<\/div>",
+			"category_book_title": "<a href=\"[^\"]*\" title=\"([^\"]*)\" target=\"_blank\"",
+			"category_book_link": "<a href=\"([^\"]*)\" title=\"([^\"]*)\"",
+			"category_book_memo": "<div style=\"padding[^\"]*\">([\\s\\S]*?)</div>",
+			"category_book_image": "",
+			"category_book_author": "<small>小说作者：<\/small>([\\s\\S]*?)<small>",
+
+			"preserved_1": "<div class=\"read_list\">([\\s\\S]*?)</div>",
+			"preserved_2": "",
+			"preserved_3": ""
+		}
+	},
+	{
+		"site_name": "mobile_txt99",
+		"site_urls": ["http://www.txt99.cc/"],
+	}
+]
