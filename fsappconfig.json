@@ -3,9 +3,9 @@
     "maxFreeReadCount":20,
     "enableBaiduReadCount":3,
     "intervalToShowAds":600,
-    "cb_app_id": "5b03b8a26349913608cfcb64",
+    "cb_app_id": "",
     "cb_app_sign": "",
-    "vungle_app_id": "",
+    "vungle_app_id": "5b03b8a26349913608cfcb64",
     "vungle_placement_id": "DEFAULT-2935830",
     "unity_app_id": "",
     "admob_banner_id":"ca-app-pub-5934917937656240/1019252683",
@@ -27,9 +27,9 @@
             "vungle_enabled":true,
             "unity_enabled":true,
             "chapter_change_ads":"admob",
-            "unity_weight":10,
+            "unity_weight":0,
             "vungle_weight":5,
-            "admob_weight":0,
+            "admob_weight":20,
             "cb_weight":0
         }
      
