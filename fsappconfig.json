@@ -31,6 +31,21 @@
             "vungle_weight":5,
             "admob_weight":20,
             "cb_weight":0
+        },
+        "com.xuanhuan.app2":
+        {
+            "app_name":"EasyUseVpn",
+            "admob_id":"ca-app-pub-5934917937656240/2576000649",
+            "ads_enabled":true,
+            "admob_enabled":true,
+            "cb_enabled":true,
+            "vungle_enabled":true,
+            "unity_enabled":false,
+            "chapter_change_ads":"admob",
+            "unity_weight":0,
+            "vungle_weight":0,
+            "admob_weight":20,
+            "cb_weight":0
         }
      
     }
