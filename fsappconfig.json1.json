@@ -1,0 +1,37 @@
+{
+    "apps": {
+        "default.app": [{
+                        "class": "AdmobAdapter",
+                        "priority": 10,
+                        "key1": "ca-app-pub-5934917937656240/1019252683",
+                        "key2": "ca-app-pub-5934917937656240/2576000649",
+                        "param":"ca-app-pub-xxxx/xxxx"
+                        },
+                        {
+                        "class": "GDTAdapter",
+                        "priority": 10,
+                        "key1": "6060823877096016",
+                        "key2": "4000925807495089",
+                        "param":"1106625944"
+                        }]
+             ,
+             
+             "com.fss.app2": [{
+                              "class": "AdmobAdapter",
+                              "priority": 10,
+                              "key1": "ca-app-pub-5934917937656240/1019252683",
+                              "key2": "ca-app-pub-5934917937656240/2576000649",
+                              "param":"ca-app-pub-xxxx/xxxx"
+                              },
+                              {
+                              "class": "GDTAdapter",
+                              "priority": 10,
+                              "key1": "6060823877096016",
+                              "key2": "4000925807495089",
+                              "param":"1106625944"
+                              }]
+        
+
+            }
+    
+}
