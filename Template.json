@@ -1,0 +1,85 @@
+{
+    "version":10,
+    "bookSources":[
+        {
+            "sourceName": "衍墨轩",
+            "baseUrl": "https://www.ymoxuan.com",
+            "enable":true,
+            "bookSearchConfig": {
+                "searchUrl":"https://www.ymoxuan.com/search.htm?keyword=%@&page=%ld",
+                "charset": "UTF-8",
+                "xpath": "//section[@class='lastest']/ul/li[position()>1]",
+                "titleXpath": "//span[2]/a/text()",
+                "authorXpath": "//span[4]/a/@title",
+                "coverXpath": "",
+                "linkXpath": "",
+                "tempLinkXpath":"//span[2]/a/@href",
+                "descXpath": "",
+                "jscript": "var getCover=function(inputData){var ret=\"\";try{var strNumber=inputData.split(\"_\")[1].split(\".\")[0];var strFirstTwoNumber=strNumber.substr(0,3);ret=\"https://r.ymoxuan.com/jieqi/cover/\"+strFirstTwoNumber+\"/\"+strNumber+\"/\"+strNumber+\"s.jpg\"}catch(error){return ret}return ret};var getLink=function(inputData){var ret=\"\";try{var strNumber=inputData.split(\"_\")[1].split(\".\")[0];var strFirstTwoNumber=strNumber.substr(0,3);ret=\"https://www.ymoxuan.com/book/\"+strFirstTwoNumber+\"/\"+strNumber+\"/index.html\"}catch(error){return ret}return ret};"
+            },
+            "bookCatalogConfig": {
+                "xpath": "//ul[@class='mulu']/li[1]/following-sibling::li[@class='col1 volumn']/following-sibling::li[@class!='col1 volumn']",
+                "titleXpath": "//a/text()",
+                "linkXpath": "//a/@href"
+            },
+            "bookContentConfig": {
+                "xpath": "//div[@id='content']/text()"
+            },
+            "bookCategoryConfig":{
+                "charset": "UTF-8",
+                "xpath": "//div[@class='left']/section/ul/li[not(@class)]",
+                "coverXpath": "",
+                "titleXpath": "//span[@class='n2']/a/text()",
+                "linkXpath": "",
+                "authorXpath": "//span[@class='a2']/a/text()",
+                "descXpath": "",
+                "tempLinkXpath":"//span[@class='n2']/a/@href",
+                
+                "jscript": "var getCover=function(inputData){var ret=\"\";try{var strNumber=inputData.split(\"_\")[1].split(\".\")[0];var strFirstTwoNumber=strNumber.substr(0,2);ret=\"https://r.ymoxuan.com/jieqi/cover/\"+strFirstTwoNumber+\"/\"+strNumber+\"/\"+strNumber+\"s.jpg\"}catch(error){return ret}return ret};var getLink=function(inputData){var ret=\"\";try{var strNumber=inputData.split(\"_\")[1].split(\".\")[0];var strFirstTwoNumber=strNumber.substr(0,2);ret=\"https://www.ymoxuan.com/book/\"+strFirstTwoNumber+\"/\"+strNumber+\"/index.html\"}catch(error){return ret}return ret};"
+            }
+        },
+  {
+    "sourceName": "猎文网",
+    "baseUrl": "https://www.liewen.cc",
+    "enable": true,
+    "bookSearchConfig": {
+      "searchUrl": "https://www.liewen.cc/search.php?keyword=%@&page=%ld",
+      "charset": "UTF-8",
+      "xpath": "//div[@class='result-item result-game-item']",
+      "coverXpath": "//div[@class='result-game-item-pic']//a//img/@src",
+      "titleXpath": "//div[@class='result-game-item-detail']//h3//a/@title",
+      "linkXpath": "//div[@class='result-game-item-detail']//h3//a/@href",
+      "authorXpath": "//div[@class='result-game-item-detail']//div[@class='result-game-item-info']//p[1]/span[2]/text()",
+      "descXpath": "//div[@class='result-game-item-detail']//p[@class='result-game-item-desc']/text()",
+      "jscript": "",
+      "tempLinkXpath":""
+    },
+    "bookCatalogConfig": {
+      "xpath": "//div[@id='list']/dl/dd",
+      "titleXpath": "//a/text()",
+      "linkXpath": "//a/@href"
+    },
+    "bookContentConfig": {
+      "xpath": "//div[@id='content']"
+    },
+    "bookCategoryConfig":{
+        "charset": "UTF-8",
+        "xpath": "//div[@id='newscontent']/div[1]/ul/li",
+        "coverXpath": "",
+        "titleXpath": "//span[1]/a/text()",
+        "linkXpath": "",
+        "authorXpath": "//span[3]/text()",
+        "descXpath": "",
+        
+        "jscript": "var getCover=function(inputData){var ret=\"\"; try{var strArray=inputData.split(\"/\");var strFirstTwoNumber=strArray[strArray.length-3];var strNumber=strArray[strArray.length-2];ret=\"https://www.liewen.cc/files/article/image/\"+strFirstTwoNumber+\"/\"+strNumber+\"/\"+strNumber+\"s.jpg\"}catch(error){return ret}return ret};var getLink=function(inputData){return\"https://www.liewen.cc/\"+inputData};",
+        
+        
+        
+        
+        
+        
+        "tempLinkXpath":"//span[1]/a/@href"
+    }
+  }
+]
+}
