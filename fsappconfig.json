@@ -1,52 +1,51 @@
 {
-    "version":1,
-    "maxFreeReadCount":20,
-    "enableBaiduReadCount":3,
-    "intervalToShowAds":600,
-    "cb_app_id": "",
-    "cb_app_sign": "",
-    "vungle_app_id": "5b03b8a26349913608cfcb64",
-    "vungle_placement_id": "DEFAULT-2935830",
-    "unity_app_id": "",
-    "admob_banner_id":"ca-app-pub-5934917937656240/1019252683",
-    "fat_guy_config":{
-        "chance": 10,
-        "duration": 10,
-        "working": 2577,
-        "sleep_hours": [9, 10, 11, 13, 14, 15, 16, 17, 18]
-    },
-    "apps":
-    {
-        "com.easyvpn.app6":
-        {
-            "app_name":"EasyUseVpn",
-            "admob_id":"ca-app-pub-5934917937656240/2576000649",
-            "ads_enabled":true,
-            "admob_enabled":true,
-            "cb_enabled":true,
-            "vungle_enabled":true,
-            "unity_enabled":false,
-            "chapter_change_ads":"admob",
-            "unity_weight":0,
-            "vungle_weight":5,
-            "admob_weight":20,
-            "cb_weight":0
-        },
-        "com.xuanhuan.app2":
-        {
-            "app_name":"Xianjia",
-            "admob_id":"ca-app-pub-5934917937656240/4079952415",
-            "ads_enabled":true,
-            "admob_enabled":true,
-            "cb_enabled":true,
-            "vungle_enabled":true,
-            "unity_enabled":false,
-            "chapter_change_ads":"admob",
-            "unity_weight":0,
-            "vungle_weight":0,
-            "admob_weight":20,
-            "cb_weight":0
-        }
-     
-    }
+    "showads":true,
+    "apps": {
+             "default.app": [{
+                             "class": "AdmobAdapter",
+                             "priority": 10,
+                             "appId": "ca-app-pub-xxxx/xxx",
+                             "bannerId": "ca-app-pub-xxxx/xxxx",
+                             "interstitialId":"ca-app-pub-xxxx/xxxx",
+                             "splashadId":"ca-app-pub-xxxx/xxxx",
+                             "nativeadId":"",
+                             "showad":false
+                             },
+             
+             {
+                 "class": "GDTAdapter",
+                 "priority": 0,
+                 "appId": "11052253451",
+                 "bannerId": "90907150838861551",
+                 "interstitialId":"30006100034851061",
+                 "splashadId":"3070240231291255",
+                 "nativeadId":"",
+                 "showad":false
+             }]
+             ,
+             
+             "com.xuanhuan.app2": [{
+                              "class": "AdmobAdapter",
+                              "priority": 0,
+                              "appId": "ca-app-pub-xxxx/xxx",
+                              "bannerId": "ca-app-pub-xxxx/xxxx",
+                              "interstitialId":"ca-app-pub-xxxx/xxxx",
+                              "splashadId":"ca-app-pub-xxxx/xxxx",
+                              "nativeadId":"",
+                              "showad":false
+                              },
+                              {
+                              "class": "GDTAdapter",
+                              "priority": 10,
+                              "appId": "1105225345",
+                              "bannerId": "9090715083886155",
+                              "interstitialId":"3000610003485106",
+                              "splashadId":"3070240231291255",
+                              "nativeadId":"",
+                              "showad":false
+                              }]
+        
+
+            }
+    
 }
