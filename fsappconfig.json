@@ -46,6 +46,30 @@
                               }]
         
 
-            }
+    }             ,
+    
+    "com.wodangdaoshidenaxienian.app6": [{
+        "class": "AdmobAdapter",
+        "priority": 10,
+        "appId": "ca-app-pub-5934917937656240~3955084629",
+        "bannerId": "ca-app-pub-xxxx/xxxx",
+        "interstitialId":"ca-app-pub-5934917937656240/8824267920",
+        "splashadId":"ca-app-pub-xxxx/xxxx",
+        "nativeadId":"",
+        "showad":false
+    },
+    {
+        "class": "GDTAdapter",
+        "priority": 10,
+        "appId": "1105875482",
+        "bannerId": "9090715083886155",
+        "interstitialId":"1050310706894889",
+        "splashadId":"2080361673554618",
+        "nativeadId":"",
+        "showad":true
+    }]
+    
+    
+}
     
 }
