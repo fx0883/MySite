@@ -1,75 +1,72 @@
 {
-    "showads":true,
+    "showads": true,
     "apps": {
-             "default.app": [{
-                             "class": "AdmobAdapter",
-                             "priority": 10,
-                             "appId": "ca-app-pub-xxxx/xxx",
-                             "bannerId": "ca-app-pub-xxxx/xxxx",
-                             "interstitialId":"ca-app-pub-xxxx/xxxx",
-                             "splashadId":"ca-app-pub-xxxx/xxxx",
-                             "nativeadId":"",
-                             "showad":false
-                             },
-             
-             {
-                 "class": "GDTAdapter",
-                 "priority": 0,
-                 "appId": "11052253451",
-                 "bannerId": "90907150838861551",
-                 "interstitialId":"30006100034851061",
-                 "splashadId":"3070240231291255",
-                 "nativeadId":"",
-                 "showad":false
-             }]
-             ,
-             
-             "com.xuanhuan.app2": [{
-                              "class": "AdmobAdapter",
-                              "priority": 0,
-                              "appId": "ca-app-pub-xxxx/xxx",
-                              "bannerId": "ca-app-pub-xxxx/xxxx",
-                              "interstitialId":"ca-app-pub-xxxx/xxxx",
-                              "splashadId":"ca-app-pub-xxxx/xxxx",
-                              "nativeadId":"",
-                              "showad":false
-                              },
-                              {
-                              "class": "GDTAdapter",
-                              "priority": 10,
-                              "appId": "1105225345",
-                              "bannerId": "9090715083886155",
-                              "interstitialId":"3000610003485106",
-                              "splashadId":"3070240231291255",
-                              "nativeadId":"",
-                              "showad":true
-                              }]
-        
-
-    }             ,
-    
-    "com.wodangdaoshidenaxienian.app6": [{
-        "class": "AdmobAdapter",
-        "priority": 10,
-        "appId": "ca-app-pub-5934917937656240~3955084629",
-        "bannerId": "ca-app-pub-xxxx/xxxx",
-        "interstitialId":"ca-app-pub-5934917937656240/8824267920",
-        "splashadId":"ca-app-pub-xxxx/xxxx",
-        "nativeadId":"",
-        "showad":false
-    },
-    {
-        "class": "GDTAdapter",
-        "priority": 10,
-        "appId": "1105875482",
-        "bannerId": "9090715083886155",
-        "interstitialId":"1050310706894889",
-        "splashadId":"2080361673554618",
-        "nativeadId":"",
-        "showad":true
-    }]
-    
-    
-}
-    
+        "default.app": [
+            {
+                "class": "AdmobAdapter",
+                "priority": 10,
+                "appId": "ca-app-pub-xxxx/xxx",
+                "bannerId": "ca-app-pub-xxxx/xxxx",
+                "interstitialId": "ca-app-pub-xxxx/xxxx",
+                "splashadId": "ca-app-pub-xxxx/xxxx",
+                "nativeadId": "",
+                "showad": false
+            },
+            {
+                "class": "GDTAdapter",
+                "priority": 0,
+                "appId": "11052253451",
+                "bannerId": "90907150838861551",
+                "interstitialId": "30006100034851061",
+                "splashadId": "3070240231291255",
+                "nativeadId": "",
+                "showad": false
+            }
+        ],
+        "com.xuanhuan.app2": [
+            {
+                "class": "AdmobAdapter",
+                "priority": 0,
+                "appId": "ca-app-pub-xxxx/xxx",
+                "bannerId": "ca-app-pub-xxxx/xxxx",
+                "interstitialId": "ca-app-pub-xxxx/xxxx",
+                "splashadId": "ca-app-pub-xxxx/xxxx",
+                "nativeadId": "",
+                "showad": false
+            },
+            {
+                "class": "GDTAdapter",
+                "priority": 10,
+                "appId": "1105225345",
+                "bannerId": "9090715083886155",
+                "interstitialId": "3000610003485106",
+                "splashadId": "3070240231291255",
+                "nativeadId": "",
+                "showad": true
+            }
+        ],
+   
+    "com.wodangdaoshidenaxienian.app6": [
+        {
+            "class": "AdmobAdapter",
+            "priority": 10,
+            "appId": "ca-app-pub-5934917937656240~3955084629",
+            "bannerId": "ca-app-pub-xxxx/xxxx",
+            "interstitialId": "ca-app-pub-5934917937656240/8824267920",
+            "splashadId": "ca-app-pub-xxxx/xxxx",
+            "nativeadId": "",
+            "showad": false
+        },
+        {
+            "class": "GDTAdapter",
+            "priority": 10,
+            "appId": "1105875482",
+            "bannerId": "9090715083886155",
+            "interstitialId": "1050310706894889",
+            "splashadId": "2080361673554618",
+            "nativeadId": "",
+            "showad": true
+        }
+    ]
+    }
 }
