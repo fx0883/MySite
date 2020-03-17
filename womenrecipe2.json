@@ -1,4 +1,4 @@
 {
-    "xiaomi":true,
-    "huawei":true
+    "xiaomi":false,
+    "huawei":false
 }
