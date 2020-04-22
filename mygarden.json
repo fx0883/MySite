@@ -2,7 +2,7 @@
     "xiaomi":true,
     "huawei":true,
     "360":true,
-    "yinyongbao":false,
+    "yinyongbao":true,
     "baidu":false,
     "ali":false
 }
