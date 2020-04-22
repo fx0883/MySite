@@ -3,5 +3,6 @@
     "huawei":true,
     "360":true,
     "yinyongbao":false,
-    "baidu":false
+    "baidu":false,
+    "ali":false
 }
