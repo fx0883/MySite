@@ -1,6 +1,6 @@
 {
-    "xiaomi":false,
-    "huawei":false,
+    "xiaomi":true,
+    "huawei":true,
     "360":true,
     "yinyongbao":true,
     "baidu":false,
