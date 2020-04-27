@@ -4,5 +4,6 @@
     "360":true,
     "yinyongbao":true,
     "baidu":false,
-    "ali":false
+    "ali":false,
+    "sougou":false
 }
