@@ -4,27 +4,27 @@
         "interteristalPosKey": true
     },
     "huawei": {
-        "bannerPosKey": true,
-        "interteristalPosKey": true
+        "bannerPosKey": false,
+        "interteristalPosKey": false
     },
     "360": {
-        "bannerPosKey": true,
-        "interteristalPosKey": true
+        "bannerPosKey": false,
+        "interteristalPosKey": false
     },
     "yinyongbao": {
-        "bannerPosKey": true,
-        "interteristalPosKey": true
+        "bannerPosKey": false,
+        "interteristalPosKey": false
     },
     "baidu": {
-        "bannerPosKey": true,
-        "interteristalPosKey": true
+        "bannerPosKey": false,
+        "interteristalPosKey": false
     },
     "ali": {
-        "bannerPosKey": true,
-        "interteristalPosKey": true
+        "bannerPosKey": false,
+        "interteristalPosKey": false
     },
     "sougou": {
-        "bannerPosKey": true,
-        "interteristalPosKey": true
+        "bannerPosKey": false,
+        "interteristalPosKey": false
     }
 }
