@@ -1,0 +1,30 @@
+{
+    "xiaomi": {
+        "bannerPosKey": true,
+        "interteristalPosKey": true
+    },
+    "huawei": {
+        "bannerPosKey": true,
+        "interteristalPosKey": true
+    },
+    "360": {
+        "bannerPosKey": true,
+        "interteristalPosKey": true
+    },
+    "yinyongbao": {
+        "bannerPosKey": true,
+        "interteristalPosKey": true
+    },
+    "baidu": {
+        "bannerPosKey": true,
+        "interteristalPosKey": true
+    },
+    "ali": {
+        "bannerPosKey": true,
+        "interteristalPosKey": true
+    },
+    "sougou": {
+        "bannerPosKey": true,
+        "interteristalPosKey": true
+    }
+}
