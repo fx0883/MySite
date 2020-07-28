@@ -1,4 +1,5 @@
 {
+    "minKey":1,
     "xiaomi": {
         "bannerPosKey": true,
         "interteristalPosKey": true
