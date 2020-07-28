@@ -4,8 +4,8 @@
         "interteristalPosKey": true
     },
     "huawei": {
-        "bannerPosKey": false,
-        "interteristalPosKey": false
+        "bannerPosKey": true,
+        "interteristalPosKey": true
     },
     "360": {
         "bannerPosKey": false,
