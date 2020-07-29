@@ -13,8 +13,8 @@
         "interteristalPosKey": false
     },
     "yinyongbao": {
-        "bannerPosKey": false,
-        "interteristalPosKey": false
+        "bannerPosKey": true,
+        "interteristalPosKey": true
     },
     "baidu": {
         "bannerPosKey": false,
@@ -25,7 +25,7 @@
         "interteristalPosKey": false
     },
     "sougou": {
-        "bannerPosKey": false,
-        "interteristalPosKey": false
+        "bannerPosKey": true,
+        "interteristalPosKey": true
     }
 }
